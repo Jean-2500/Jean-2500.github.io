@@ -8,12 +8,96 @@
     <style>
         body {
             background-image: url(https://images.stockcake.com/public/6/f/6/6f6a0565-96eb-4dda-8c8f-9c0d9a8afdf0_large/vivid-sunset-sky-stockcake.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            color: rgb(77, 0, 56);
+        }
+
+        section {
+            padding: 200px;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        /* sidebar */
+
+        #sidebar {
+            background-color: rgb(125, 73, 149);
+            background: linear-gradient(20deg, rgb(78, 60, 183), rgb(138, 73, 149));
+            height: 100vh;
+            width: 12%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        #sidebar a {
+            line-height: 70px;
+            display: block;
+            color: rgb(81, 23, 109);
+        }
+
+        /* about me */
+        #about_me h1 {
+            color: rgb(84, 0, 82);
+            font-size: 40px;
+            text-shadow: 10px 5px 5px rgb(131, 51, 119);
+        }
+
+        hr {
+            background-color: rgb(255, 255, 255);
+            height: 2px;
+            border: none;
         }
     </style>
 </head>
 
 <body>
+    <div id="sidebar">
+        <a href="#about_me">ABOUT ME</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#interests">INTERESTS</a>
+    </div>
 
+    <section id="about_me">
+        <h1>JEAN GUO</h1>
+        <p>113 RÖMERSTRAßE · HEIDELBERG · 69126 · <a href="">NAME@EMAIL.COM</a></p>
+        <p></p>
+    </section>
+    <hr>
+
+    <section id="education">
+        <h2>Education</h2>
+        <a href="https://www.kfg-heidelberg.de">KUFÜRST-FRIEDRICH-GYMNASIUM</a>
+    </section>
+    <hr>
+
+    <section id="projects">
+        <h2>Projects</h2>
+    </section>
+    <hr>
+
+    <section id="skills">
+        <h2>Skills</h2>
+    </section>
+    <hr>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>I spend most of my time indoors and enjoy doing quiet activities.
+            I like drawing and painting a bit, especially when I want to relax or focus on something creative.
+            When the weather is hot, I enjoy going swimming, as it helps me cool down and stay active.
+            In my free time, I also like watching TV. It helps me unwind and enjoy different stories and shows.</p>
+    </section>
 </body>
 
 </html>
